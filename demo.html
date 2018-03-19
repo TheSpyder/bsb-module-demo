@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>OCaml test</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <!-- bucklescript dev imports  -->
+    <script type="module" src="lib/es6_global/src/demo.js"></script>
+
+    <!-- bundled import fallback for older browsers -->
+    <script nomodule type="text/javascript" src="dist/demo-bundle.js"></script>
+
+  </head>
+  <body>
+    <p style="color: red">This file makes use of ES6 modules when available. Most modern browsers <a href="https://caniuse.com/#feat=es6-module">now support them</a>. Older browsers do have a fallback; use <code>npm run bundle</code> to compile it.</p>
+  </body>

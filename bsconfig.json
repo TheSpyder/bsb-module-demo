@@ -1,0 +1,16 @@
+{
+  "name": "bsb-module-demo",
+  "version": "0.1.0",
+  "sources": {
+    "dir" : "src",
+    "subdirs" : true
+  },
+  "package-specs": [ "es6-global" ],
+  "bs-dependencies": [
+      // add your bs-dependencies here
+  ],
+  "warnings": {
+    "error" : "+101"
+  },
+  "refmt": 3
+}
